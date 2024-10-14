@@ -1,0 +1,384 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+        height: 800px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/fitness.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	
+}
+
+header
+{
+	position:sticky;
+	top:0;
+	/*background-color:black;*/
+	
+}
+
+.navbar img
+{
+ 	position:absolute;
+	width:65px;
+	
+	
+}
+	
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+	
+}
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: orange;
+}
+nav ul li a:hover
+{
+    color: orange;
+}
+nav ul li a:active
+{
+    text-decoration: none;
+    font-size: 28px;
+	color:blue;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background:#F3C693 ;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:#777;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+
+
+
+#login
+{
+	left:50px;
+}
+
+#login input
+{
+	color:white;
+	font-size:15;
+}
+
+#register
+{
+	left:450px;
+}
+
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+
+footer
+{    
+    position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color: #1e2434;
+	padding: 15px;
+	font-size:15px;
+	color:white;
+	
+}
+.cont
+{
+	display:flex;
+}
+
+.align-left
+{
+	margin-left:60px;
+}
+
+.align
+{
+	color:white;
+	margin-left:650px;
+}
+
+section
+{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+
+
+.about
+{
+	padding:20px 20px;
+	text-align:center;
+}
+
+.top
+{
+	text-align:center;
+	padding:20px 20px;
+}
+
+h2.abg
+{
+	margin:20px;
+	color:red;
+}
+
+.content
+{
+	padding:15px;
+}
+
+.shot
+{
+	text-align:center;
+	padding:10px;
+}
+	
+.gym-bg
+{
+	padding-top:200px;
+	padding-bottom:0;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+
+html .breadcrumb
+{
+	margin-top:80px;
+	background-color:transparent;
+}
+
+html .breadcrumb a
+{
+	color:#fff;
+	text-decoration:none;
+	font-size:15px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before 
+{
+    display: inline-block;
+    padding-right: .5rem;
+    color:#fff;
+}
+
+
+h3.m-d-name
+{
+	color:#000;
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	font-style:italic;
+	font-weight:600;
+}
+
+.manager-details
+{
+	text-align:center;
+	padding:50px;
+}
+
+.manager-details small
+{
+	font-size:14px;
+	font-family: 'Lato', sans-serif;
+}
+
+p.m-d-p
+{
+	font-size:16px;
+	font-family: 'Lato', sans-serif;
+	line-height:22px;
+	color:#3b3b3b;
+}
+
+.manager-details a
+{
+	color:blue;
+	font-weight:500;
+	font-size:18px;
+	text-decoration:none;
+	transition:all 0.3s;
+}
+
+.manager-details a:hover
+{
+	color:var(--orange);
+}
+
+h3.m-d-name 
+{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.manager-details small 
+{
+    font-size: 13px;
+}
+
+
+p.m-d-p 
+{
+    font-size: 14px;
+    line-height: 21px;
+	margin-bottom: 5px;
+}
+
+.manager-details a
+{
+    font-size: 16px;
+}
+
+img
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+}
+
+
+
+.heading_center
+{
+	
+	text-align:center;
+}
+
